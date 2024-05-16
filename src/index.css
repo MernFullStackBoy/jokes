@@ -36,7 +36,6 @@ body {
   margin: auto;
   text-align: center;
 }
-
 .app button {
   width: 200px;
   height: 50px;
@@ -48,7 +47,6 @@ body {
   margin-top: 60px;
   cursor: pointer;
 }
-
 @media screen and (max-width: 480px) {
   .app {
     width: 100%;
