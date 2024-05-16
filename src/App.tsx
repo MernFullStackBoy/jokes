@@ -11,7 +11,7 @@ const App = () => {
   return (
     <div className="app">
       <h1>Hazllar generatori</h1>
-      <h1>{data && data[num].title}</h1>
+      <h2>{data && data[num].title}</h2>
       <button onClick={() => setNum(Math.trunc(Math.random() * 8))}>Boshqa hazllar</button>
     </div>
   )
